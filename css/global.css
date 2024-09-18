@@ -1,0 +1,236 @@
+.menu{
+    height:  50px;
+    font-size: 6px;
+    border: 0;
+    padding-left: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-left{
+    display: flex;
+    justify-content: space-between;
+
+    width: 40%;
+    font-size: 15px;
+    border: 0;
+    padding-top: 0.5rem;
+}
+
+.menu-right{
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    font-size: 10px;
+    gap: 50px;   
+    border-right: 1rem;
+    border: 0;
+    padding-left: 40vh;
+    padding-top: 0.5rem;
+}
+
+ .window11{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 249, 249);
+}
+
+.window11 .img-window{
+    padding: 2rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    height: 60%;
+    
+}
+
+.window11 .text{
+    padding-top: 20vh;
+    height: 80%;
+}
+
+.window11 .h1{
+    font-size: 30px;
+}
+
+.window11 .linha{
+    width: 150px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 10rem;
+    background: rgb(12,60,236);
+    background: linear-gradient(90deg, rgba(12,60,236,1) 0%, rgba(174,252,232,1) 100%);
+}
+
+.button{
+    background-color: #0078d4;
+    color: white;
+    width: 30vh;
+    height: 4vh;
+    font-size: 16px;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+
+.guia{
+    display: flex;
+    align-items: flex-end;
+
+    gap: 40px;
+    background-color: rgb(250, 249, 249);
+}
+
+.facil-de-usar{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 249, 249);
+
+}
+
+.facil-de-usar .texto-info{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10vh;
+}
+
+.texto-info .t1{
+    padding-bottom: 10vh;
+}
+
+.facil-de-usar .img-facil{
+    display: flex;
+   align-items: center;
+
+   padding-right: 2rem;
+}
+
+.produtivo{
+    background-color: rgb(250, 249, 249);
+    height: 55vh;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtivo .img-produtivo{
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.produtivo .texto-produtivo{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.texto-produtivo h6{
+    padding-bottom: 2rem;
+}
+
+.seguro{
+    background-color: rgb(250, 249, 249);
+    height: 55vh;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.seguro .texto-seguro{
+    padding: 2rem;
+}
+
+.texto-seguro h6{
+    padding-bottom: 2rem;
+}
+
+.seguro .img-seguro{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.jogar{
+    background-color: rgb(250, 249, 249);
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogar .texto-jogar{
+    padding: 2rem;
+}
+
+.texto-jogar h6{
+    padding-bottom: 2rem;
+}
+
+.jogar .img-jogar{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.comprar{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.comprar h1{
+    padding-left: 30vh;
+}
+
+.texto-comprar p{
+    font-size: 20px;
+}
+
+.image{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image .img-left{
+    width: 57%;
+    background-image: url(/assets/img6.png);
+    padding: 1rem;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.image .img-right{
+    width: 30%;
+    background-image: url(/assets/img7.png);
+    padding: 1rem;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.mais{
+    background-color: blue;
+    height: 75vh;
+}
+
+.explorar{
+    background-color: cadetblue;
+    height: 25vh;
+}
+
+.info-produto{
+    background-color: coral;
+    height: 25vh;
+}
+
+.info-geral{
+    background-color: crimson;
+    height: 60vh;
+}
